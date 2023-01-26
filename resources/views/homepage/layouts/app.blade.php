@@ -7,6 +7,8 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
+        <title>Vape On</title>
+
         <title>@yield('title')</title>
 
         <!-- CSS FILES -->        
@@ -21,6 +23,8 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-festava-live.css" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet">
         
 <!--
 
@@ -46,6 +50,7 @@ T e m p l a t e M o
         <script src="js/jquery.sticky.js"></script>
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
+        <script src='https://cdn.jsdelivr.net/npm/darkreader@4.9.27/darkreader.js' async></script>
 
     </body>
 </html>

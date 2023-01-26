@@ -349,9 +349,9 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-color: var(--primary-color);
-  padding-top: 12px;
-  padding-bottom: 12px;
+  background: rgb(29, 29, 26);
+  padding-top: 23px;
+  padding-bottom: 23px;
 }
 
 
@@ -552,6 +552,7 @@ strong {
 -----------------------------------------*/
 .ticket-section {
   background-image: url('../images/nicholas-green-unsplash-blur.jpg');
+  background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -586,6 +587,7 @@ strong {
 /*---------------------------------------
   ARTISTS              
 -----------------------------------------*/
+
 .artists-thumb {
   position: relative;
   overflow: hidden;
@@ -638,89 +640,6 @@ strong {
 .artists-hover hr {
   margin: 1.5rem 0;
 }
-
-
-/*---------------------------------------
-  SCHEDULE              
------------------------------------------*/
-.schedule-section {
-  background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg');
-  background-color: #242424;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.table-responsive {
-	filter: drop-shadow(2px 2px 4px #606060);
-}
-
-.schedule-table {
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  overflow: hidden;
-}
-
-.schedule-table .bg-warning {
-  background: #f0a5a5 !important;
-}
-
-.schedule-table thead th {
-  background-color: var(--secondary-color);
-}
-
-.schedule-table th,
-.schedule-table tr,
-.schedule-table td {
-  border-bottom-color: #363a3e;
-  padding: 30px;
-}
-
-.schedule-table tr:last-child th,
-.schedule-table tr:last-child td {
-  border-bottom-color: transparent;
-}
-
-.schedule-table thead th {
-  border-right: 1px solid #c7460a;
-  border-bottom-color: transparent;
-}
-
-.schedule-table th + td {
-  border-bottom: 0;
-}
-
-.schedule-table thead th:last-child {
-  border-right-color: transparent;
-}
-
-.schedule-table .pop-background-image {
-  background-image: url('../images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg');
-}
-
-.schedule-table .rock-background-image {
-  background-image: url('../images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg');
-}
-
-.schedule-table .country-background-image {
-  background-image: url('../images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg');
-}
-
-.table-background-image-wrap {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  box-shadow: none;
-  position: relative;
-}
-
-.schedule-table h3,
-.schedule-table p {
-  color: var(--white-color);
-  position: relative;
-  z-index: 2;
-}
-
-
 /*---------------------------------------
   PRICING              
 -----------------------------------------*/
