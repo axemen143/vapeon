@@ -552,7 +552,6 @@ strong {
 -----------------------------------------*/
 .ticket-section {
   background-image: url('../images/nicholas-green-unsplash-blur.jpg');
-  background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -587,7 +586,6 @@ strong {
 /*---------------------------------------
   ARTISTS              
 -----------------------------------------*/
-
 .artists-thumb {
   position: relative;
   overflow: hidden;
