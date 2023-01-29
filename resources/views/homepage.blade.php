@@ -16,9 +16,12 @@
                         Announcement
                     </div>
                     <ul>
+                    @foreach($sliders as $SliderItem)
                         <li>
-                            WARNING: THIS PRODUCT CONTAINS NICOTINE. 21+ AND ABOVE ONLY...
+                        {{$SliderItem->description}}
+                            {{-- WARNING: THIS PRODUCT CONTAINS NICOTINE. 21+ AND ABOVE ONLY... --}}
                         </li>
+                    @endforeach
                     </ul>
                 </div>
             </header>
@@ -89,13 +92,17 @@
 
                         <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
                             <div class="services-info">
-                                <h2 class="text-white mb-4">ABOUT VAPE ON</h2>
+                                <h2 class="text-white mb-4">ABOUT US</h2>
 
                                 <p class="text-white">We provide making your own vape mods according to your preferences and budget restrictions in addition to selling a variety of goods, including the newest products on the market.</p>
 
-                                <h6 class="text-white mt-4">VISIT NOW!</h6>
+                                <h6 class="text-white mt-4">MISSION:</h6>
 
-                                <p class="text-white">All conclusive evidence shows that these are safer, so why aren't we encouraging smokers to make the shift? ---</p>
+                                <p class="text-white">We aim to offer the highest quality vaping experience by providing the safest products while ensuring the ultimate in customer satisfaction. Making every customer happy is our guiding principle.</p>
+
+                                <h6 class="text-white mt-4">VISION:</h6>
+
+                                <p class="text-white">Our vision is to become one of the most comprehensive and easily accessible brands of electronic cigarettes in the market, serving as a one-stop shop for vapers. The goal of Vape On is to drastically reduce the number of smokers who use analog cigarettes and convert them to vaping. It is one of the most comprehensive and easily accessible electronic cigarette brands on the market.</p>
                             </div>
                         </div>
 
@@ -321,45 +328,25 @@
                     <div class="row">
 
                         <div class="col-lg-8 col-12 mx-auto">
-                            <h2 class="text-center mb-4">Interested? Let's talk</h2>
+                            <h2 class="text-center mb-4">VISIT US HERE</h2>
 
                             <nav class="d-flex justify-content-center">
                                 <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab" role="tablist">
-                                    <button class="nav-link active" id="nav-ContactForm-tab" data-bs-toggle="tab" data-bs-target="#nav-ContactForm" type="button" role="tab" aria-controls="nav-ContactForm" aria-selected="false">
-                                        <h5>Contact Form</h5>
-                                    </button>
-
                                     <button class="nav-link" id="nav-ContactMap-tab" data-bs-toggle="tab" data-bs-target="#nav-ContactMap" type="button" role="tab" aria-controls="nav-ContactMap" aria-selected="false">
-                                        <h5>Google Maps</h5>
+                                        <h5>Google Map</h5>
                                     </button>
                                 </div>
                             </nav>
-
-                            <div class="tab-content shadow-lg mt-5" id="nav-tabContent">
                                 <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel" aria-labelledby="nav-ContactForm-tab">
                                     <form class="custom-form contact-form mb-5 mb-lg-0" action="#" method="post" role="form">
                                         <div class="contact-form-body">
                                             <div class="row">
-                                                <div class="col-lg-6 col-md-6 col-12">
-                                                    
+                                                <div class="col-lg-6 col-md-6 col-12">                             
                                                 </div>
-
-                                                <div class="col-lg-6 col-md-6 col-12">
-                                                    <input type="email" name="contact-email" id="contact-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required>
-                                                </div>
-                                            </div>
-
-                                            <input type="text" name="contact-company" id="contact-company" class="form-control" placeholder="Company" required>
-
-                                            <textarea name="contact-message" rows="3" class="form-control" id="contact-message" placeholder="Message"></textarea>
-
-                                            <div class="col-lg-4 col-md-10 col-8 mx-auto">
-                                                <button type="submit" class="form-control">Send message</button>
                                             </div>
                                         </div>
                                     </form>
                                 </div>
-
                                 <div class="tab-pane fade" id="nav-ContactMap" role="tabpanel" aria-labelledby="nav-ContactMap-tab">
                                     <div>
                                         <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63060.35184318622!2d125.47396913125002!3d8.947065500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301c187bf28b687%3A0x1f4a6d4e11895e61!2sVape%20On%20Vape%20Shop!5e0!3m2!1sen!2sph!4v1674556353498!5m2!1sen!2sph" frameborder="0" allowfullscreen></iframe>
