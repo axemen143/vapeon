@@ -13,7 +13,7 @@
             <header class="site-header">
                 <div class="news-container">
                     <div class="title">
-                        Announcement
+                        Announcements
                     </div>
                     <ul>
                     @foreach($sliders as $SliderItem)
@@ -26,12 +26,10 @@
                 </div>
             </header>
 
-
             <section class="hero-section" id="section_1">
                 <div class="section-overlay"></div>
-
-                <div class="container d-flex justify-content-center align-items-center">
-                    <div class="row">
+                    <div class="container d-flex justify-content-center align-items-center">
+                      <div class="row">
 
                         <div class="col-12 mt-auto mb-5 text-center">
                             <small>keep calm and</small>
@@ -116,6 +114,7 @@
                 </div>
             </section>
             <section class="artists-section section-padding" id="section_3">
+                
                 <div class="container">
                     <div class="row justify-content-center">
 
@@ -126,30 +125,30 @@
                         <div class="col-lg-5 col-12">
                             <div class="artists-thumb">
                                 <div class="artists-image-wrap">
-                                    <img src="images/artists/123.png" class="artists-image img-fluid">
+                                    <img src="images/artists/d.png" class="artists-image img-fluid">
                                 </div>
 
                                 <div class="artists-hover">
                                     <p>
                                         <strong>Product Name:</strong>
-                                        ELFBAR
+                                        TOHA 
                                     </p>
 
                                     <p>
                                         <strong>Puffs:</strong>
-                                        5000 
+                                        8000 
                                     </p>
 
                                     <p>
                                         <strong>Price:</strong>
-                                        P450/pcs
+                                        450 PHP
                                     </p>
 
                                     <hr>
 
                                     <p class="mb-0">
-                                        <strong>Contact us:</strong>
-                                        <a href="#">VapeonButuanOfficial</a>
+                                        <strong>FB PAGE:</strong>
+                                        <a href="https://www.facebook.com/ButuanVapeOn">VapeonButuanOfficial</a>
                                     </p>
                                 </div>
                             </div>
@@ -158,30 +157,30 @@
                          <div class="col-lg-5 col-12">
                             <div class="artists-thumb">
                                 <div class="artists-image-wrap">
-                                    <img src="images/artists/123.png" class="artists-image img-fluid">
+                                    <img src="images/artists/a.png" class="artists-image img-fluid">
                                 </div>
 
                                 <div class="artists-hover">
                                     <p>
-                                        <strong>Name:</strong>
-                                        Rihana
+                                        <strong>Product Name:</strong>
+                                        TOHA 
                                     </p>
 
                                     <p>
-                                        <strong>Birthdate:</strong>
-                                        Feb 20, 1988
+                                        <strong>Puffs:</strong>
+                                        8000
                                     </p>
 
                                     <p>
-                                        <strong>Music:</strong>
-                                        Country
+                                        <strong>Price:</strong>
+                                        450 PHP
                                     </p>
 
                                     <hr>
 
                                     <p class="mb-0">
-                                        <strong>Youtube Channel:</strong>
-                                        <a href="#">Rihana Official</a>
+                                        <strong>FB PAGE:</strong>
+                                        <a href="https://www.facebook.com/ButuanVapeOn">VapeonButuanOfficial</a>
                                     </p>
                                 </div>
                             </div>
@@ -190,30 +189,30 @@
                          <div class="col-lg-5 col-12">
                             <div class="artists-thumb">
                                 <div class="artists-image-wrap">
-                                    <img src="images/artists/123.png" class="artists-image img-fluid">
+                                    <img src="images/artists/b.png" class="artists-image img-fluid">
                                 </div>
 
                                 <div class="artists-hover">
                                     <p>
-                                        <strong>Name:</strong>
-                                        Rihana
+                                        <strong>Product Name:</strong>
+                                        TOHA
                                     </p>
 
                                     <p>
-                                        <strong>Birthdate:</strong>
-                                        Feb 20, 1988
+                                        <strong>Puffs:</strong>
+                                        5000
                                     </p>
 
                                     <p>
-                                        <strong>Music:</strong>
-                                        Country
+                                        <strong>Price:</strong>
+                                        450 PHP
                                     </p>
 
                                     <hr>
 
                                     <p class="mb-0">
-                                        <strong>Youtube Channel:</strong>
-                                        <a href="#">Rihana Official</a>
+                                        <strong>FB PAGE:</strong>
+                                        <a href="https://www.facebook.com/ButuanVapeOn">VapeonButuanOfficial</a>
                                     </p>
                                 </div>
                             </div>
@@ -222,40 +221,37 @@
                          <div class="col-lg-5 col-12">
                             <div class="artists-thumb">
                                 <div class="artists-image-wrap">
-                                    <img src="images/artists/1.png" class="artists-image img-fluid">
+                                    <img src="images/artists/c.png" class="artists-image img-fluid">
                                 </div>
 
                                 <div class="artists-hover">
                                     <p>
-                                        <strong>Name:</strong>
-                                        Rihana
+                                        <strong>Product Name:</strong>
+                                        TOHA
                                     </p>
 
                                     <p>
-                                        <strong>Birthdate:</strong>
-                                        Feb 20, 1988
+                                        <strong>Puffs:</strong>
+                                        5000
                                     </p>
 
                                     <p>
-                                        <strong>Music:</strong>
-                                        Country
+                                        <strong>Price:</strong>
+                                        450 PHP
                                     </p>
 
                                     <hr>
 
                                     <p class="mb-0">
-                                        <strong>Youtube Channel:</strong>
-                                        <a href="#">Rihana Official</a>
+                                        <strong>FB PAGE:</strong>
+                                        <a href="https://www.facebook.com/ButuanVapeOn"">VapeonButuanOfficial</a>
                                     </p>
                                 </div>
                             </div>
                         </div>
-
-
-
-
                     </div>
                 </div>
+                
             </section>
 
             <section class="pricing-section section-padding section-bg" id="section_4">
@@ -272,20 +268,20 @@
                                     <div>
                                         <h3><small>GEEKVAPE BUNDLE PROMO</small> $120</h3>
 
-                                        <p>Inclusions:</p>
+                                        <h3><small>Inclusions:</small></h3>
                                     </div>
 
                                     
                                 </div>
 
                                 <ul class="pricing-list mt-3">
-                                    <li class="pricing-list-item">1x GeekVape Device</li>
+                                    <li class="pricing-list-item"><h3><small>1x GeekVape Device</small></h3></li>
 
-                                    <li class="pricing-list-item">1x 60ml e-liquid juice</li>
+                                    <li class="pricing-list-item"><h3><small>1x 60ml e-liquid juice</small></h3></li>
 
-                                    <li class="pricing-list-item">1x Vape Charger</li>
+                                    <li class="pricing-list-item"><h3><small>1x Vape Charger</small></h3></li>
 
-                                    <li class="pricing-list-item">2pcs ENOOK 3600 MAH Vape Battery</li>
+                                    <li class="pricing-list-item"><h3><small>2pcs ENOOK 3600 MAH Vape Battery</small></h3></li>
                                 </ul>
                                 <a class="link-fx-1 color-contrast-higher mt-4" href="">
                                     <span>Buy Now!</span>
@@ -300,16 +296,16 @@
                                     <div>
                                         <h3><small>GEEKVAPE STANDARD</small> $240</h3>
 
-                                        <p>Inclusions:</p>
+                                        <h3><small>Inclusions:</small></h3>
                                     </div>
                                 </div>
 
                                 <ul class="pricing-list mt-3">
-                                    <li class="pricing-list-item">1x GeekVape Device</li>
+                                    <li class="pricing-list-item"><h3><small>1x GeekVape Device</small></h3></li>
 
-                                    <li class="pricing-list-item">2pcs CYCLAID 2600 MAH Vape Battery</li>
+                                    <li class="pricing-list-item"><h3><small>2pcs CYCLAID 2600 MAH Vape Battery</li></small></h3>
 
-                                    <li class="pricing-list-item">1x 60ml e-liquid juice</li>
+                                    <li class="pricing-list-item"><h3><small>1x 60ml e-liquid juice</small></h3></li>
                                 </ul>
 
                                 <a class="link-fx-1 color-contrast-higher mt-4" href="">
@@ -322,44 +318,15 @@
                 </div>
             </section>
 
-
-            <section class="contact-section section-padding" id="section_5">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-8 col-12 mx-auto">
-                            <h2 class="text-center mb-4">VISIT US HERE</h2>
-
-                            <nav class="d-flex justify-content-center">
-                                <div class="nav nav-tabs align-items-baseline justify-content-center" id="nav-tab" role="tablist">
-                                    <button class="nav-link" id="nav-ContactMap-tab" data-bs-toggle="tab" data-bs-target="#nav-ContactMap" type="button" role="tab" aria-controls="nav-ContactMap" aria-selected="false">
-                                        <h5>Google Map</h5>
-                                    </button>
-                                </div>
-                            </nav>
-                                <div class="tab-pane fade show active" id="nav-ContactForm" role="tabpanel" aria-labelledby="nav-ContactForm-tab">
-                                    <form class="custom-form contact-form mb-5 mb-lg-0" action="#" method="post" role="form">
-                                        <div class="contact-form-body">
-                                            <div class="row">
-                                                <div class="col-lg-6 col-md-6 col-12">                             
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="tab-pane fade" id="nav-ContactMap" role="tabpanel" aria-labelledby="nav-ContactMap-tab">
-                                    <div>
-                                        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63060.35184318622!2d125.47396913125002!3d8.947065500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301c187bf28b687%3A0x1f4a6d4e11895e61!2sVape%20On%20Vape%20Shop!5e0!3m2!1sen!2sph!4v1674556353498!5m2!1sen!2sph" frameborder="0" allowfullscreen></iframe>
-                                    </div>
-                                    <!-- You can easily copy the embed code from Google Maps -> Share -> Embed a map // -->
-                                </div>
-                            </div>
-                        </div>
-
+    <section class="contact-section section-padding" id="section_5">
+            <div class="container">
+                <h2 class="text-center mb-4">LOCATION</h2>
+                    <div>
+                        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63060.35184318622!2d125.47396913125002!3d8.947065500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301c187bf28b687%3A0x1f4a6d4e11895e61!2sVape%20On%20Vape%20Shop!5e0!3m2!1sen!2sph!4v1674556353498!5m2!1sen!2sph" frameborder="0" allowfullscreen></iframe>
                     </div>
-                </div>
-            </section>
-        </main>
+            </div>
+        </section>
+    </main>
 
     @include('homepage.includes.footer')
 

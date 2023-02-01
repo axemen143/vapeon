@@ -15,17 +15,9 @@
             </div>
         @endif
 
-        <div class="">
-    <h3 class="text-center text-2xl font-bold">Slider List</h3>
-</div>
-{{-- <div class="flex items-center justify-center my-8">
-    <a href="{{ url('/sliders/create')}}" class="bg-indigo-500 hover:bg-indigo-600 text-white font-medium py-2 px-4 rounded-lg">
-        Add Slider
-    </a>
-</div> --}}
     <div class="flex items-center justify-center my-8">
         <a href="{{ url('/sliders/create') }}">
-            <button type="button" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Add Slider +</button>
+            <button type="button" class="text-white bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-orange-300 dark:focus:ring-orange-800 shadow-lg shadow-orange-500/50 dark:shadow-lg dark:shadow-orange-800/80 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">ADD TEXT SLIDER HERE</button>
         </a>
     </div>
 
@@ -59,10 +51,10 @@
                             class = "btn btn-danger bg-red-500 text-white">Delete</a> --}}
                             
                             <a href="{{ url('/sliders/'.$slider->id.'/edit')}}">
-                                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 border border-blue-500 rounded">Update</button>
+                                        <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-2 border border-green-500 rounded">Edit</button>
                                         </a>
                             <a href="{{ url('/sliders/'.$slider->id.'/delete')}}" onclick="return confirm('Are you sure you want to delete this Slider?');">
-                                        <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 border border-red-500 rounded">Delete</button>
+                                        <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 border border-red-500 rounded">Remove</button>
                                         </a>
                             </td> 
                         </tr>
