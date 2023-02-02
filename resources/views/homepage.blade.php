@@ -90,9 +90,10 @@
 
                         <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
                             <div class="services-info">
-                                <h2 class="text-white mb-4">ABOUT US</h2>
+                                <h2 class="text-white mb-4">OWNER</h2>
 
-                                <p class="text-white">We provide making your own vape mods according to your preferences and budget restrictions in addition to selling a variety of goods, including the newest products on the market.</p>
+                                <p class="text-white">Mr. Kent M. Ken Founded Vape On in 2019</p> 
+                                <p class="text-white">They provide making your own vape mods according to your preferences and budget restrictions in addition to selling a variety of goods, including the newest products on the market.</p>
 
                                 <h6 class="text-white mt-4">MISSION:</h6>
 
@@ -106,7 +107,7 @@
 
                         <div class="col-lg-6 col-12">
                             <div class="about-text-wrap">
-                                <img src="images/vapeon.png" class="about-image img-fluid">
+                                <img src="images/owner.png" class="about-image img-fluid">
                             </div>
                         </div>
 

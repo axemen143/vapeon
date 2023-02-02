@@ -36,10 +36,9 @@ class SliderController extends Controller
         $validatedData['status'] = $request->gc_status == true ? '1':'0';
 
         Slider::create([
-            // 'title' => $validatedData['title'],
+           
             'description' => $validatedData['description'],
-            // 'image' => $validatedData['image'],
-            // 'status' => $validatedData['status'],
+            
         ]);
         
         return redirect('sliders')->with('message', 'Slider Added Successfully');
@@ -72,10 +71,9 @@ class SliderController extends Controller
         $validatedData['status'] = $request->gc_status == true ? '1':'0';
 
         Slider::where('id', $slider->id)->update([
-            // 'title' => $validatedData['title'],
+        
             'description' => $validatedData['description'],
-            // 'image' => $validatedData['image'] ?? $slider->image,
-            // 'status' => $validatedData['status'],
+            
         ]);
         
         return redirect('sliders')->with('message', 'Slider Added Successfully');

@@ -2,8 +2,8 @@
                 <div class="container">
                     <a class="navbar-brand" href="/">
                         <a href="/" title="Vape On Vape Shop Butuan" rel="home">
-                        <img width="100" height="90" src="images/logo.png" class="header_logo header-logo" alt="Vape On Vape Shop Butuan"
-                        <img width="100" height="90" src="images/logo.png" class="header-logo-dark" alt="Vape On Vape Shop Butuan"        
+                        <img width="100px" height="90px" src="images/logo.png" class="header-logo header-logo" alt="Vape On Vape Shop Butuan"
+                        <img width="100px" height="90px" src="images/logo.png" class="header-logo-dark" alt="Vape On Vape Shop Butuan"        
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
